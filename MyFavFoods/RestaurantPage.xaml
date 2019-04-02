@@ -1,0 +1,74 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="MyFavFoods.Pages.RestaurantPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:phonetwo="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:maps="clr-namespace:Microsoft.Phone.Controls.Maps;assembly=Microsoft.Phone.Controls.Maps"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    mc:Ignorable="d" d:DesignHeight="696" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True" BackKeyPress="PhoneApplicationPage_BackKeyPress">
+
+    <Grid x:Name="LayoutRoot" Background="Black">
+        <TextBlock x:Name="ApplicationTitle" Grid.Row="0" Style="{StaticResource PhoneTextNormalStyle}" Text="MYFAVFOODS"/>
+        <phonetwo:Pivot x:Name="MainPivot" SelectedIndex="0" Margin="0,30,0,0" Grid.Row="1">
+            <phonetwo:PivotItem x:Name="pvtNotes" Header="notes">
+                <StackPanel>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2*" />
+                            <ColumnDefinition Width="3*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto" />
+                        </Grid.RowDefinitions>
+                        <Image x:Name="imgPic" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Left" Stretch="UniformToFill" />
+                    </Grid>
+                    <TextBlock Style="{StaticResource PhoneTextTitle2Style}" Text="notes" />
+                    <TextBlock Style="{StaticResource PhoneTextSmallStyle}" x:Name="txtNotes" />
+                </StackPanel>
+            </phonetwo:PivotItem>
+            <phonetwo:PivotItem x:Name="pvtRev" Header="reviews">
+                <StackPanel x:Name="spReviews" />
+            </phonetwo:PivotItem>
+            <phonetwo:PivotItem x:Name="pvtLoc" Header="location">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="200" />
+                        <ColumnDefinition Width="auto" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="200"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <ProgressBar IsIndeterminate="True" Grid.Row="0" Grid.Column="0" />
+			  <Image x:Name="imgMap" Source="http://www.goamplify.com/contact/images/map-ps.jpg" Height="200" Width="200" Grid.Row="0" Grid.Column="0" VerticalAlignment="Top" />
+                    <TextBlock x:Name="txtAddress" Style="{StaticResource PhoneTextNormalStyle}"  Grid.Row="0" Grid.Column="1" TextWrapping="Wrap" />
+                    <StackPanel Grid.Row="1" Grid.Column="0" >
+                        <TextBlock Style="{StaticResource PhoneTextTitle2Style}" Text="directions" />
+                        <TextBlock x:Name="txtDirections" Style="{StaticResource PhoneTextAccentStyle}" Text="from my location" ManipulationCompleted="txtDirections_ManipulationCompleted" />
+			    <TextBlock Style="{StaticResource PhoneTextTitle2Style}" Text="phone" Margin="15,30,0,0" />
+                        <TextBlock x:Name="txtCall" Style="{StaticResource PhoneTextAccentStyle}" ManipulationCompleted="txtCall_ManipulationCompleted" />
+				<TextBlock Style="{StaticResource PhoneTextTitle2Style}" Text="share" Margin="15,30,0,0" />
+                        <TextBlock x:Name="txtText" Style="{StaticResource PhoneTextAccentStyle}" Text="text" ManipulationCompleted="txtText_ManipulationCompleted" />
+                    </StackPanel>
+                </Grid>
+            </phonetwo:PivotItem>
+        </phonetwo:Pivot>
+    </Grid>
+
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True">
+            <shell:ApplicationBar.Buttons>
+                <shell:ApplicationBarIconButton x:Name="imgFav" IconUri="Images/appbar.favs.addto.rest.png" Text="Add To Favs" Click="imgFav_ManipulationCompleted" />
+                <shell:ApplicationBarIconButton x:Name="imgEdit" IconUri="Images/appbar.edit.rest.png" Text="Edit Note" Click="imgEdit_ManipulationCompleted" />
+                <shell:ApplicationBarIconButton x:Name="imgTakePic" IconUri="Images/appbar.feature.camera.rest.png" Text="New Pic" Click="imgTakePic_ManipulationCompleted" />
+            </shell:ApplicationBar.Buttons>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+</phone:PhoneApplicationPage>

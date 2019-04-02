@@ -1,0 +1,553 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ul class="attr_list">
+    <li>Active Life (active)</li>
+    <ul>
+        <li>Amateur Sports Teams (amateursportsteams)</li>
+        <li>Amusement Parks (amusementparks)</li>
+        <li>Aquariums (aquariums)</li>
+        <li>Beaches (beaches)</li>
+        <li>Bike Rentals (bikerentals)</li>
+        <li>Boating (boating)</li>
+        <li>Bowling (bowling)</li>
+        <li>Diving (diving)</li>
+        <li>Fitness & Instruction (fitness)</li>
+        <ul>
+            <li>Dance Studios (dancestudio)</li>
+            <li>Gyms (gyms)</li>
+            <li>Martial Arts (martialarts)</li>
+            <li>Pilates (pilates)</li>
+            <li>Trainers (healthtrainers)</li>
+            <li>Yoga (yoga)</li>
+
+        </ul>
+        <li>Golf (golf)</li>
+        <li>Gun/Rifle Ranges (gun_ranges)</li>
+        <li>Hiking (hiking)</li>
+        <li>Lakes (lakes)</li>
+        <li>Leisure Centers (leisure_centers)</li>
+        <li>Mini Golf (mini_golf)</li>
+        <li>Parks (parks)</li>
+        <ul>
+            <li>Dog Parks (dog_parks)</li>
+            <li>Skate Parks (skate_parks)</li>
+
+        </ul>
+        <li>Playgrounds (playgrounds)</li>
+        <li>Rafting/Kayaking (rafting)</li>
+        <li>Skating Rinks (skatingrinks)</li>
+        <li>Soccer (football)</li>
+        <li>Sports Clubs (sports_clubs)</li>
+        <li>Summer Camps (summer_camps)</li>
+        <li>Swimming Pools (swimmingpools)</li>
+        <li>Tennis (tennis)</li>
+        <li>Zoos (zoos)</li>
+
+    </ul>
+    <li>Arts & Entertainment (arts)</li>
+    <ul>
+        <li>Arcades (arcades)</li>
+        <li>Art Galleries (galleries)</li>
+        <li>Botanical Gardens (gardens)</li>
+        <li>Casinos (casinos)</li>
+        <li>Cinema (movietheaters)</li>
+        <li>Jazz & Blues (jazzandblues)</li>
+        <li>Museums (museums)</li>
+        <li>Music Venues (musicvenues)</li>
+        <li>Performing Arts (theater)</li>
+        <li>Professional Sports Teams (sportsteams)</li>
+        <li>Psychics & Astrologers (psychic_astrology)</li>
+        <li>Social Clubs (social_clubs)</li>
+        <li>Stadiums & Arenas (stadiumsarenas)</li>
+        <li>Wineries (wineries)</li>
+
+    </ul>
+    <li>Automotive (auto)</li>
+    <ul>
+        <li>Auto Detailing (auto_detailing)</li>
+        <li>Auto Glass Services (autoglass)</li>
+        <li>Auto Repair (autorepair)</li>
+        <li>Body Shops (bodyshops)</li>
+        <li>Car Dealers (car_dealers)</li>
+        <li>Car Wash (carwash)</li>
+        <li>Gas & Service Stations (servicestations)</li>
+        <li>Motorcycle Dealers (motorcycledealers)</li>
+        <li>Motorcycle Repair (motorcyclerepair)</li>
+        <li>Parking (parking)</li>
+        <li>Smog Check Stations (smog_check_stations)</li>
+        <li>Stereo Installation (stereo_installation)</li>
+        <li>Tires (tires)</li>
+        <li>Towing (towing)</li>
+
+    </ul>
+    <li>Beauty and Spas (beautysvc)</li>
+    <ul>
+        <li>Barbers (barbers)</li>
+        <li>Cosmetics & Beauty Supply (cosmetics)</li>
+        <li>Day Spas (spas)</li>
+        <li>Hair Removal (hairremoval)</li>
+        <ul>
+            <li>Laser Hair Removal (laser_hair_removal)</li>
+
+        </ul>
+        <li>Hair Salons (hair)</li>
+        <li>Makeup Artists (makeupartists)</li>
+        <li>Massage (massage)</li>
+        <li>Nail Salons (othersalons)</li>
+        <li>Piercing (piercing)</li>
+        <li>Skin Care (skincare)</li>
+        <li>Tanning (tanning)</li>
+        <li>Tattoo (tattoo)</li>
+
+    </ul>
+    <li>Education (education)</li>
+    <ul>
+        <li>Adult Education (adultedu)</li>
+        <li>Colleges & Universities (collegeuniv)</li>
+        <li>Elementary Schools (elementaryschools)</li>
+        <li>Middle Schools & High Schools (highschools)</li>
+        <li>Preschools (preschools)</li>
+        <li>Specialty Schools (specialtyschools)</li>
+        <ul>
+            <li>Art Schools (artschools)</li>
+            <li>Cooking Schools (cookingschools)</li>
+            <li>Cosmetology Schools (cosmetology_schools)</li>
+            <li>Dance Schools (dance_schools)</li>
+            <li>Driving Schools (driving_schools)</li>
+            <li>Language Schools (language_schools)</li>
+            <li>Massage Schools (massage_schools)</li>
+
+        </ul>
+        <li>Tutoring Centers (tutoring)</li>
+
+    </ul>
+    <li>Event Planning & Services (eventservices)</li>
+    <ul>
+        <li>Boat Charters (boatcharters)</li>
+        <li>Cards & Stationery (stationery)</li>
+        <li>Caterers (catering)</li>
+        <li>DJs (djs)</li>
+        <li>Hotels (hotels)</li>
+        <li>Party & Event Planning (eventplanning)</li>
+        <li>Party Supplies (partysupplies)</li>
+        <li>Personal Chefs (personalchefs)</li>
+        <li>Photographers (photographers)</li>
+        <li>Venues & Event Spaces (venues)</li>
+        <li>Wedding Planning (wedding_planning)</li>
+
+    </ul>
+    <li>Financial Services (financialservices)</li>
+    <ul>
+        <li>Banks & Credit Unions (banks)</li>
+        <li>Insurance (insurance)</li>
+        <li>Investing (investing)</li>
+
+    </ul>
+    <li>Food (food)</li>
+    <ul>
+        <li>Bagels (bagels)</li>
+        <li>Bakeries (bakeries)</li>
+        <li>Beer, Wine & Spirits (beer_and_wine)</li>
+        <li>Breweries (breweries)</li>
+        <li>Coffee & Tea (coffee)</li>
+        <li>Convenience Stores (convenience)</li>
+        <li>Desserts (desserts)</li>
+        <li>Donuts (donuts)</li>
+        <li>Farmers Market (farmersmarket)</li>
+        <li>Grocery (grocery)</li>
+        <li>Ice Cream & Frozen Yogurt (icecream)</li>
+        <li>Juice Bars & Smoothies (juicebars)</li>
+        <li>Specialty Food (gourmet)</li>
+        <ul>
+            <li>Candy Stores (candy)</li>
+            <li>Cheese Shops (cheese)</li>
+            <li>Chocolatiers and Shops (chocolate)</li>
+            <li>Ethnic Food (ethnicmarkets)</li>
+            <li>Fruits & Veggies (markets)</li>
+            <li>Health Markets (healthmarkets)</li>
+            <li>Meat Shops (meats)</li>
+            <li>Seafood Markets (seafoodmarkets)</li>
+
+        </ul>
+        <li>Tea Rooms (tea)</li>
+        <li>Wineries (wineries)</li>
+
+    </ul>
+    <li>Health and Medical (health)</li>
+    <ul>
+        <li>Acupuncture (acupuncture)</li>
+        <li>Cannabis Clinics (cannabis_clinics)</li>
+        <li>Chiropractors (chiropractors)</li>
+        <li>Counseling & Mental Health (c_and_mh)</li>
+        <li>Dentists (dentists)</li>
+        <ul>
+            <li>Oral Surgeons (oralsurgeons)</li>
+            <li>Orthodontists (orthodontists)</li>
+            <li>Pediatric Dentists (pediatric_dentists)</li>
+
+        </ul>
+        <li>Doctors (physicians)</li>
+        <ul>
+            <li>Cardiologists (cardiology)</li>
+            <li>Cosmetic Surgeons (cosmeticsurgeons)</li>
+            <li>Dermatologists (dermatology)</li>
+            <li>Ear Nose & Throat (earnosethroat)</li>
+            <li>Family Practice (familydr)</li>
+            <li>Internal Medicine (internalmed)</li>
+            <li>Naturopathic/Holistic (naturopathic)</li>
+            <li>Obstetricians and Gynecologists (obgyn)</li>
+            <li>Ophthalmologists (opthamalogists)</li>
+            <li>Orthopedists (orthopedists)</li>
+            <li>Pediatricians (pediatricians)</li>
+            <li>Podiatrists (podiatrists)</li>
+            <li>Psychiatrists (psychiatrists)</li>
+            <li>Sports Medicine (sportsmed)</li>
+
+        </ul>
+        <li>Hospitals (hospitals)</li>
+        <li>Medical Centers (medcenters)</li>
+        <li>Midwives (midwives)</li>
+        <li>Nutritionists (nutritionists)</li>
+        <li>Optometrists (optometrists)</li>
+        <li>Physical Therapy (physicaltherapy)</li>
+        <li>Retirement Homes (retirement_homes)</li>
+        <li>Urgent Care (urgent_care)</li>
+
+    </ul>
+    <li>Home Services (homeservices)</li>
+    <ul>
+        <li>Building Supplies (buildingsupplies)</li>
+        <li>Carpeting (carpeting)</li>
+        <li>Contractors (contractors)</li>
+        <li>Electricians (electricians)</li>
+        <li>Flooring (flooring)</li>
+        <li>Gardeners (gardeners)</li>
+        <li>Home Cleaning (homecleaning)</li>
+        <li>Home Inspectors (home_inspectors)</li>
+        <li>Interior Design (interiordesign)</li>
+        <li>Keys & Locksmiths (locksmiths)</li>
+        <li>Landscaping (landscaping)</li>
+        <li>Lighting Fixtures & Equipment (lighting)</li>
+        <li>Movers (movers)</li>
+        <li>Painters (painters)</li>
+        <li>Plumbing (plumbing)</li>
+        <li>Real Estate (realestate)</li>
+        <ul>
+            <li>Apartments (apartments)</li>
+            <li>Mortgage Brokers (mortgagebrokers)</li>
+            <li>Property Management (propertymgmt)</li>
+            <li>Real Estate Agents (realestateagents)</li>
+            <li>Real Estate Services (realestatesvcs)</li>
+            <li>University Housing (university_housing)</li>
+
+        </ul>
+        <li>Shades & Blinds (blinds)</li>
+
+    </ul>
+    <li>Hotels & Travel (hotelstravel)</li>
+    <ul>
+        <li>Airports (airports)</li>
+        <li>Bed & Breakfast (bedbreakfast)</li>
+        <li>Campgrounds (campgrounds)</li>
+        <li>Car Rental (carrental)</li>
+        <li>Guest Houses (guesthouses)</li>
+        <li>Hostels (hostels)</li>
+        <li>Hotels (hotels)</li>
+        <li>Ski Resorts (skiresorts)</li>
+        <li>Tours (tours)</li>
+        <li>Transportation (transport)</li>
+        <ul>
+            <li>Airlines (airlines)</li>
+            <li>Airport Shuttles (airport_shuttles)</li>
+            <li>Limos (limos)</li>
+            <li>Public Transportation (publictransport)</li>
+            <li>Taxis (taxis)</li>
+
+        </ul>
+        <li>Travel Services (travelservices)</li>
+
+    </ul>
+    <li>Local Flavor (localflavor)</li>
+    <li>Local Services (localservices)</li>
+    <ul>
+        <li>Appliances & Repair (homeappliancerepair)</li>
+        <li>Carpet Cleaning (carpet_cleaning)</li>
+        <li>Child Care & Day Care (childcare)</li>
+        <li>Community Service/Non-Profit (nonprofit)</li>
+        <li>Couriers & Delivery Services (couriers)</li>
+        <li>Dry Cleaning & Laundry (drycleaninglaundry)</li>
+        <li>Funeral Services & Cemeteries (funeralservices)</li>
+        <li>Furniture Reupholstery (reupholstery)</li>
+        <li>IT Services & Computer Repair (itservices)</li>
+        <li>Notaries (notaries)</li>
+        <li>Pest Control (pest_control)</li>
+        <li>Printing Services (copyshops)</li>
+        <li>Recording & Rehearsal Studios (recording_studios)</li>
+        <li>Self Storage (selfstorage)</li>
+        <li>Sewing & Alterations (sewingalterations)</li>
+        <li>Shipping Centers (shipping_centers)</li>
+        <li>Shoe Repair (shoerepair)</li>
+        <li>Watch Repair (watch_repair)</li>
+
+    </ul>
+    <li>Mass Media (massmedia)</li>
+    <ul>
+        <li>Print Media (printmedia)</li>
+        <li>Radio Stations (radiostations)</li>
+        <li>Television Stations (televisionstations)</li>
+
+    </ul>
+    <li>Nightlife (nightlife)</li>
+    <ul>
+        <li>Adult Entertainment (adultentertainment)</li>
+        <li>Bars (bars)</li>
+        <ul>
+            <li>Dive Bars (divebars)</li>
+            <li>Gay Bars (gaybars)</li>
+            <li>Hookah Bars (hookah_bars)</li>
+            <li>Lounges (lounges)</li>
+            <li>Pubs (pubs)</li>
+            <li>Sports Bars (sportsbars)</li>
+            <li>Wine Bars (wine_bars)</li>
+
+        </ul>
+        <li>Comedy Clubs (comedyclubs)</li>
+        <li>Dance Clubs (danceclubs)</li>
+        <li>Jazz & Blues (jazzandblues)</li>
+        <li>Karaoke (karaoke)</li>
+        <li>Music Venues (musicvenues)</li>
+        <li>Pool Halls (poolhalls)</li>
+
+    </ul>
+    <li>Pets (pets)</li>
+    <ul>
+        <li>Animal Shelters (animalshelters)</li>
+        <li>Pet Services (petservices)</li>
+        <ul>
+            <li>Dog Walkers (dogwalkers)</li>
+            <li>Pet Boarding/Pet Sitting (pet_sitting)</li>
+            <li>Pet Groomers (groomer)</li>
+            <li>Pet Training (pet_training)</li>
+
+        </ul>
+        <li>Pet Stores (petstore)</li>
+        <li>Veterinarians (vet)</li>
+
+    </ul>
+    <li>Professional Services (professional)</li>
+    <ul>
+        <li>Accountants (accountants)</li>
+        <li>Architects (architects)</li>
+        <li>Employment Agencies (employmentagencies)</li>
+        <li>Graphic Design (graphicdesign)</li>
+        <li>Internet Service Providers (isps)</li>
+        <li>Lawyers (lawyers)</li>
+        <ul>
+            <li>Bankruptcy (bankruptcy)</li>
+            <li>Divorce and Family Law (divorce)</li>
+            <li>General Litigation (general_litigation)</li>
+            <li>Personal Injury (personal_injury)</li>
+
+        </ul>
+        <li>Web Design (web_design)</li>
+
+    </ul>
+    <li>Public Services & Government (publicservicesgovt)</li>
+    <ul>
+        <li>Landmarks & Historical Buildings (landmarks)</li>
+        <li>Libraries (libraries)</li>
+        <li>Post Offices (postoffices)</li>
+
+    </ul>
+    <li>Real Estate (realestate)</li>
+    <ul>
+        <li>Apartments (apartments)</li>
+        <li>Mortgage Brokers (mortgagebrokers)</li>
+        <li>Property Management (propertymgmt)</li>
+        <li>Real Estate Agents (realestateagents)</li>
+        <li>Real Estate Services (realestatesvcs)</li>
+        <li>University Housing (university_housing)</li>
+
+    </ul>
+    <li>Religious Organizations (religiousorgs)</li>
+    <ul>
+        <li>Buddhist Temples (buddhist_temples)</li>
+        <li>Churches (churches)</li>
+        <li>Hindu Temples (hindu_temples)</li>
+        <li>Mosques (mosques)</li>
+        <li>Synagogues (synagogues)</li>
+
+    </ul>
+    <li>Restaurants (restaurants)</li>
+    <ul>
+        <li>Afghan (afghani)</li>
+        <li>African (african)</li>
+        <li>American (New) (newamerican)</li>
+        <li>American (Traditional) (tradamerican)</li>
+        <li>Argentine (argentine)</li>
+        <li>Asian Fusion (asianfusion)</li>
+        <li>Barbeque (bbq)</li>
+        <li>Basque (basque)</li>
+        <li>Belgian (belgian)</li>
+        <li>Brazilian (brazilian)</li>
+        <li>Breakfast & Brunch (breakfast_brunch)</li>
+        <li>British (british)</li>
+        <li>Buffets (buffets)</li>
+        <li>Burgers (burgers)</li>
+        <li>Burmese (burmese)</li>
+        <li>Cajun/Creole (cajun)</li>
+        <li>Cambodian (cambodian)</li>
+        <li>Caribbean (caribbean)</li>
+        <li>Chicken Wings (chicken_wings)</li>
+        <li>Chinese (chinese)</li>
+        <ul>
+            <li>Dim Sum (dimsum)</li>
+
+        </ul>
+        <li>Creperies (creperies)</li>
+        <li>Cuban (cuban)</li>
+        <li>Delis (delis)</li>
+        <li>Diners (diners)</li>
+        <li>Ethiopian (ethiopian)</li>
+        <li>Fast Food (hotdogs)</li>
+        <li>Filipino (filipino)</li>
+        <li>Fish & Chips (fishnchips)</li>
+        <li>Fondue (fondue)</li>
+        <li>Food Stands (foodstands)</li>
+        <li>French (french)</li>
+        <li>German (german)</li>
+        <li>Gluten-Free (gluten_free)</li>
+        <li>Greek (greek)</li>
+        <li>Halal (halal)</li>
+        <li>Hawaiian (hawaiian)</li>
+        <li>Himalayan/Nepalese (himalayan)</li>
+        <li>Hot Dogs (hotdog)</li>
+        <li>Hungarian (hungarian)</li>
+        <li>Indian (indpak)</li>
+        <li>Indonesian (indonesian)</li>
+        <li>Irish (irish)</li>
+        <li>Italian (italian)</li>
+        <li>Japanese (japanese)</li>
+        <li>Korean (korean)</li>
+        <li>Kosher (kosher)</li>
+        <li>Latin American (latin)</li>
+        <li>Live/Raw Food (raw_food)</li>
+        <li>Malaysian (malaysian)</li>
+        <li>Mediterranean (mediterranean)</li>
+        <li>Mexican (mexican)</li>
+        <li>Middle Eastern (mideastern)</li>
+        <li>Mongolian (mongolian)</li>
+        <li>Moroccan (moroccan)</li>
+        <li>Pakistani (pakistani)</li>
+        <li>Persian/Iranian (persian)</li>
+        <li>Pizza (pizza)</li>
+        <li>Polish (polish)</li>
+        <li>Russian (russian)</li>
+        <li>Sandwiches (sandwiches)</li>
+        <li>Scandinavian (scandinavian)</li>
+        <li>Seafood (seafood)</li>
+        <li>Singaporean (singaporean)</li>
+        <li>Soul Food (soulfood)</li>
+        <li>Southern (southern)</li>
+        <li>Spanish (spanish)</li>
+        <li>Steakhouses (steak)</li>
+        <li>Sushi Bars (sushi)</li>
+        <li>Taiwanese (taiwanese)</li>
+        <li>Tapas Bars (tapas)</li>
+        <li>Tex-Mex (tex-mex)</li>
+        <li>Thai (thai)</li>
+        <li>Turkish (turkish)</li>
+        <li>Ukrainian (ukrainian)</li>
+        <li>Vegan (vegan)</li>
+        <li>Vegetarian (vegetarian)</li>
+        <li>Vietnamese (vietnamese)</li>
+
+    </ul>
+    <li>Shopping (shopping)</li>
+    <ul>
+        <li>Adult (adult)</li>
+        <li>Antiques (antiques)</li>
+        <li>Art Galleries (galleries)</li>
+        <li>Arts & Crafts (artsandcrafts)</li>
+        <ul>
+            <li>Art Supplies (artsupplies)</li>
+            <li>Cards & Stationery (stationery)</li>
+            <li>Costumes (costumes)</li>
+            <li>Fabric Stores (fabricstores)</li>
+            <li>Framing (framing)</li>
+
+        </ul>
+        <li>Baby Gear & Furniture (baby_gear)</li>
+        <li>Books, Mags, Music and Video (media)</li>
+        <ul>
+            <li>Bookstores (bookstores)</li>
+            <li>Comic Books (comicbooks)</li>
+            <li>Music & DVD's (musicvideo)</li>
+            <li>Newspapers & Magazines (mags)</li>
+            <li>Videos and Video Game Rental (videoandgames)</li>
+            <li>Vinyl Records (vinyl_records)</li>
+
+        </ul>
+        <li>Bridal (bridal)</li>
+        <li>Computers (computers)</li>
+        <li>Cosmetics & Beauty Supply (cosmetics)</li>
+        <li>Department Stores (deptstores)</li>
+        <li>Drugstores (drugstores)</li>
+        <li>Electronics (electronics)</li>
+        <li>Eyewear & Opticians (opticians)</li>
+        <li>Fashion (fashion)</li>
+        <ul>
+            <li>Accessories (accessories)</li>
+            <li>Children's Clothing (childcloth)</li>
+            <li>Department Stores (deptstores)</li>
+            <li>Leather Goods (leather)</li>
+            <li>Lingerie (lingerie)</li>
+            <li>Maternity Wear (maternity)</li>
+            <li>Men's Clothing (menscloth)</li>
+            <li>Shoe Stores (shoes)</li>
+            <li>Sports Wear (sportswear)</li>
+            <li>Used, Vintage & Consignment (vintage)</li>
+            <li>Women's Clothing (womenscloth)</li>
+
+        </ul>
+        <li>Flowers & Gifts (flowers)</li>
+        <ul>
+            <li>Cards & Stationery (stationery)</li>
+            <li>Florists (florists)</li>
+
+        </ul>
+        <li>Hobby Shops (hobbyshops)</li>
+        <li>Home & Garden (homeandgarden)</li>
+        <ul>
+            <li>Appliances (appliances)</li>
+            <li>Furniture Stores (furniture)</li>
+            <li>Hardware Stores (hardware)</li>
+            <li>Home Decor (homedecor)</li>
+            <li>Kitchen & Bath (kitchenandbath)</li>
+            <li>Mattresses (mattresses)</li>
+            <li>Nurseries & Gardening (gardening)</li>
+
+        </ul>
+        <li>Jewelry (jewelry)</li>
+        <li>Luggage (luggage)</li>
+        <li>Mobile Phones (mobilephones)</li>
+        <li>Musical Instruments & Teachers (musicalinstrumentsandteachers)</li>
+        <li>Office Equipment (officeequipment)</li>
+        <li>Outlet Stores (outlet_stores)</li>
+        <li>Pawn Shops (pawn)</li>
+        <li>Personal Shopping (personal_shopping)</li>
+        <li>Photography Stores & Services (photographystores)</li>
+        <li>Shopping Centers (shoppingcenters)</li>
+        <li>Sporting Goods (sportgoods)</li>
+        <ul>
+            <li>Bikes (bikes)</li>
+            <li>Outdoor Gear (outdoorgear)</li>
+            <li>Sports Wear (sportswear)</li>
+
+        </ul>
+        <li>Thrift Stores (thrift_stores)</li>
+        <li>Tobacco Shops (tobaccoshops)</li>
+        <li>Toy Stores (toys)</li>
+        <li>Watches (watches)</li>
+        <li>Wholesale Stores (wholesale_stores)</li>
+    </ul>
+</ul>

@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="MyFavFoods.Controls.MainControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:phonetwo="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    d:DesignHeight="700" d:DesignWidth="480">
+
+    <Grid x:Name="LayoutRoot" Background="Black">
+        <TextBlock x:Name="ApplicationTitle" Grid.Row="0" Text="MYFAVFOOD" Style="{StaticResource PhoneTextNormalStyle}"/>
+        <phonetwo:Pivot x:Name="MainPivot" SelectedIndex="0" Margin="0,30,0,0" Grid.Row="1" SelectionChanged="MainPivot_SelectionChanged">
+            <phonetwo:PivotItem x:Name="pvtAll" Header="all">
+                <ScrollViewer>
+                    <Grid x:Name="grdAll" MouseLeftButtonUp="grdAll_MouseLeftButtonUp">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="4*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                </ScrollViewer>
+            </phonetwo:PivotItem>
+            <phonetwo:PivotItem x:Name="pvtFav" Header="favorites">
+                <ScrollViewer>
+                    <Grid x:Name="grdFav">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="4*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                </ScrollViewer>
+            </phonetwo:PivotItem>
+            <phonetwo:PivotItem x:Name="pvtCat" Header="categories">
+                <TextBlock Text="Categories" />
+            </phonetwo:PivotItem>
+        </phonetwo:Pivot>
+    </Grid>
+</UserControl>

@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CC1B2821-2AD6-476A-B542-AEC639478A05}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyFavFoods</RootNamespace>
+    <AssemblyName>MyFavFoods</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <TargetFrameworkProfile>WindowsPhone</TargetFrameworkProfile>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>
+    </SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>MyFavFoods.xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>MyFavFoods.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <TokenBackgroundImageFilePath>C:\Users\t-pewu.REDMOND\Documents\Visual Studio 2010\Projects\MyFavFoods_v11\MyFavFoods\ApplicationIcon.png</TokenBackgroundImageFilePath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Phone" />
+    <Reference Include="Microsoft.Phone.Controls">
+      <HintPath>..\Microsoft.Phone.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Phone.Controls.Maps" />
+    <Reference Include="Microsoft.Phone.Interop" />
+    <Reference Include="System.Device" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows" />
+    <Reference Include="mscorlib" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Controls, Version=2.0.5.0, Culture=neutral, PublicKeyToken=2c5c654d367bf4a7, processorArchitecture=MSIL">
+      <HintPath>..\Controls\obj\Debug\System.Windows.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml.Serialization" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AjaxLibrary\Internal\GenericJsonSerializerAdapter.cs" />
+    <Compile Include="AjaxLibrary\Internal\JsonArraySerializer.cs" />
+    <Compile Include="AjaxLibrary\Internal\JsonBooleanSerializer.cs" />
+    <Compile Include="AjaxLibrary\Internal\JsonMemberSerializationInfo.cs" />
+    <Compile Include="AjaxLibrary\Internal\JsonNumberSerializer.cs" />
+    <Compile Include="AjaxLibrary\Internal\JsonParserUtil.cs" />
+    <Compile Include="AjaxLibrary\Internal\JsonStringSerializer.cs" />
+    <Compile Include="AjaxLibrary\JavascriptType.cs" />
+    <Compile Include="AjaxLibrary\JsonOptions.cs" />
+    <Compile Include="AjaxLibrary\JsonPropertyAttribute.cs" />
+    <Compile Include="AjaxLibrary\JsonSerializableAttribute.cs" />
+    <Compile Include="AjaxLibrary\JsonSerializer.cs" />
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase.cs" />
+    <Compile Include="DirectionsPage.xaml.cs">
+      <DependentUpon>DirectionsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NotesPage.xaml.cs">
+      <DependentUpon>NotesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Restaurant.cs" />
+    <Compile Include="RestaurantPage.xaml.cs">
+      <DependentUpon>RestaurantPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ImageService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\RouteService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="YelpAPILib\Objects\Business.cs" />
+    <Compile Include="YelpAPILib\Objects\Category.cs" />
+    <Compile Include="YelpAPILib\Objects\Message.cs" />
+    <Compile Include="YelpAPILib\Objects\Neighborhood.cs" />
+    <Compile Include="YelpAPILib\Objects\ResponseCodes.cs" />
+    <Compile Include="YelpAPILib\Objects\Review.cs" />
+    <Compile Include="YelpAPILib\Objects\SearchResult.cs" />
+    <Compile Include="YelpAPILib\YelpInterface.cs" />
+    <Compile Include="YelpAPILib\YelpRequest.cs" />
+    <Compile Include="YelpAPILib\YelpServices.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="DirectionsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NotesPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RestaurantPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Properties\WMAppManifest.xml" />
+    <None Include="Service References\ImageService\configuration91.svcinfo" />
+    <None Include="Service References\ImageService\configuration.svcinfo" />
+    <None Include="Service References\ImageService\MyFavFoods.ImageService.GetImageryMetadataResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ImageService\MyFavFoods.ImageService.GetMapUriResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ImageService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\RouteService\configuration91.svcinfo" />
+    <None Include="Service References\RouteService\configuration.svcinfo" />
+    <None Include="Service References\RouteService\MyFavFoods.RouteService.MajorRoutesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\RouteService\MyFavFoods.RouteService.RouteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\RouteService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="ApplicationIcon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\appbar.basecircle.rest.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ServiceReferences.ClientConfig" />
+    <None Include="Service References\ImageService\Arrays.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ImageService\common.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ImageService\contracts.wsdl" />
+    <None Include="Service References\ImageService\contracts.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ImageService\imagery.wsdl" />
+    <None Include="Service References\ImageService\imagery.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ImageService\search.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ImageService\service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\RouteService\common.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\RouteService\contracts.wsdl" />
+    <None Include="Service References\RouteService\contracts.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\RouteService\route.wsdl" />
+    <None Include="Service References\RouteService\route.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\RouteService\service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Background.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\appbar.favs.removefrom.rest.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="YelpAPILib\CategoryList.xml" />
+    <Content Include="FavFoodsSetting.xml" />
+    <Content Include="Images\Bratt.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Burger.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Burrito.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Pizza.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Sandwich.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Spaghetti.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Steak.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Sushi.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\appbar.favs.rest.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\appbar.check.rest.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\appbar.favs.addto.rest.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\appbar.edit.rest.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\appbar.feature.camera.rest.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\appbar.cancel.rest.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SplashScreenImage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Controls\Controls.csproj">
+      <Project>{BDC7605E-4B2E-41B8-A5F6-4FBFD7651AC9}</Project>
+      <Name>Controls</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ImageService\" />
+    <WCFMetadataStorage Include="Service References\RouteService\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+</Project>
